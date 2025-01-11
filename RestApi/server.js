@@ -7,7 +7,7 @@ const Port = 5000;
 app.use(express.json());
 const connectDB = async ()=>{
    try{
-            await mongoose.connect("mongodb+srv://vipulkumar05012002:8840147039%40vV@cluster0.pcow8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+            await mongoose.connect("url")
             console.log("connect to Db")
    } catch(errors){
     console.error("MongoDB connection error:", errors);
