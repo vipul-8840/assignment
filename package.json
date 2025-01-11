@@ -1,0 +1,19 @@
+{
+  "name": "urban-culture-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": " RestApi/server.js",
+  "scripts": {
+    "start": "nodemon RestApi/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
