@@ -15,7 +15,7 @@ const connectDB = async ()=>{
 
 }
 
-connectDB();
+connectDB(); 
 
 app.post("/users",async (req,res)=>{
 
